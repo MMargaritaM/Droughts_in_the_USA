@@ -1,1 +1,1 @@
-# Droughts_in_the_USA
+# Droughts_in_the_US
