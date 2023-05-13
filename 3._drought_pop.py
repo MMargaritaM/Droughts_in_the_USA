@@ -109,6 +109,8 @@ d4_by_pop["Population (mil)"] = d4_by_pop["Population"]/1e06
 d4_pop =sns.scatterplot(data = d4_by_pop, x = "D4", y = "Population (mil)")
 # Setting the title
 d4_pop.set_title("Exceptional drought by population in counties")
+d4_pop.set_xlabel("Exceptional drought")
+d4_pop.set_ylabel("Population (mil)")
 # Saving the figure
 plt.savefig("drought_pop_bycounties.png")
 
